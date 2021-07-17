@@ -1,0 +1,48 @@
+html{
+    font-size: 62.5%; /*Reset para *REMS* 62.5% = 10px de 16 px*/
+}
+
+body{
+    font-family: 'Zen Loop', cursive;
+    font-size: 1.6rem;
+}
+
+/*Estilos Globales*/
+
+.contenedor{
+    max-width: 120rem;
+    margin: auto;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+/*Header*/
+.foto-perfil{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 20rem;
+    border: solid 0.5rem;
+    border-color: white;
+    display: block;
+    margin: auto;
+}
+.site-header.inicio{
+    background: url(../img/Pereira.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+.contenido-header{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    text-align: center;
+}
